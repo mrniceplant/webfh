@@ -1,10 +1,10 @@
 <title>Skriptni jezici i web programiranje</title>
 
 
-  .wrap {
+/*  .wrap {
     display: block;
     width: 100%;
-  }
+  }*/
 
 #content.site-content.wrap{
     margin-left: 30px;
@@ -13,21 +13,21 @@
     height: 100%;
 }
 
-  #content {
+/*  #content {
     position: relative;
-  }
+  }*/
 
   #content:before {
     display: none;
     
   }
-
+/*
   #primary {
     float: left;
     width: 100%;
     
   }
-
+*/
 
 
 th {
