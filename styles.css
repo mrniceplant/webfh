@@ -23,7 +23,7 @@
   }
 
   #primary {
-    float: center;
+    float: inherit;
     width: 120%;
     
   }
