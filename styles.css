@@ -17,15 +17,14 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 670px;
+    left: 100%;
     width: 1px;
     background: #EFEFEF;
   }
 
   #primary {
-    margin-right: 20px;
-    margin-left: 20px;
-    width: 120%;
+    float: left;
+    width: 100%;
     
   }
 
