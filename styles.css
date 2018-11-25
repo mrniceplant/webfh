@@ -3,7 +3,7 @@
 @media screen and (min-width: 960px) {
   .wrap {
     display: block;
-    width: 960px;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -12,7 +12,7 @@
     position: relative;
   }
   #content:before {
-    display: inline-block;
+    display: none;
     content: '';
     position: absolute;
     top: 0;
@@ -24,7 +24,7 @@
 
   #primary {
     float: left;
-    width: 670px;
+    width: 100%;
   }
 
   .single-jetpack-portfolio #content:before,
