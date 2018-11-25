@@ -1,6 +1,6 @@
 <title>Skriptni jezici i web programiranje</title>
 
-@media only screen and (min-width: 500px) {
+
   .wrap {
     display: block;
     width: 90%;
@@ -45,7 +45,7 @@
     width: 250px;
     margin-left: 40px;
   }
-}
+
 
 th {
     font-size: 25px;
