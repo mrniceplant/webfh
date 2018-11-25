@@ -24,7 +24,7 @@
 
   #primary {
     float: left;
-    
+    width: 100%;
   }
 
   .single-jetpack-portfolio #content:before,
