@@ -3,7 +3,7 @@
 @media screen and (min-width: 960px) {
   .wrap {
     display: block;
-    width: 90%;
+    width: 960px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -12,7 +12,7 @@
     position: relative;
   }
   #content:before {
-    display: none;
+    display: inline-block;
     content: '';
     position: absolute;
     top: 0;
@@ -24,7 +24,26 @@
 
   #primary {
     float: left;
-    width: 100%;
+    width: 670px;
+  }
+
+  .single-jetpack-portfolio #content:before,
+  .page-template-temp-one-column-page #content:before {
+    display: none;
+  }
+  .single-jetpack-portfolio #primary,
+  .page-template-temp-one-column-page #primary {
+    float: none;
+    display: block;
+    width: 740px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #secondary {
+    float: left;
+    width: 250px;
+    margin-left: 40px;
   }
 }
 
