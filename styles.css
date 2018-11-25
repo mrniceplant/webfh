@@ -1,5 +1,9 @@
 <title>Skriptni jezici i web programiranje</title>
 
+#respond.comment-respond{
+    display: none;
+}
+
 
   .wrap {
     display: block;
