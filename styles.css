@@ -1,7 +1,7 @@
 <title>Skriptni jezici i web programiranje</title>
 
 #respond.comment-respond{
-    display: none;
+    visibility: hidden;
 }
 
 
