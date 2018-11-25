@@ -1,6 +1,6 @@
 <title>Skriptni jezici i web programiranje</title>
 
-
+@media screen and (min-width: 960px) {
   .wrap {
     display: inline-block;
     width: 100%;
@@ -21,7 +21,7 @@
     width: 100%;
     
   }
-
+}
 
 
 th {
