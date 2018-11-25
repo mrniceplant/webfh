@@ -1,7 +1,7 @@
 <title>Skriptni jezici i web programiranje</title>
 
 
- /* .wrap {
+  .wrap {
     display: block;
     width: 100%;
     margin-right: auto;
@@ -12,7 +12,7 @@
     position: relative;
   }
   #content:before {
-    display: none;
+    display: relative;
     content: '';
     position: absolute;
     top: 0;
@@ -24,7 +24,7 @@
 
   #primary {
     float: left;
-    width: 100%;
+    
   }
 
   .single-jetpack-portfolio #content:before,
@@ -44,7 +44,7 @@
     float: left;
     width: 250px;
     margin-left: 40px;
-  } */
+  } 
 
 
 th {
