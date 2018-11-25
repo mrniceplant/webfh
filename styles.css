@@ -1,6 +1,6 @@
 <title>Skriptni jezici i web programiranje</title>
 
-
+@media screen and (min-width: 960px) {
   .wrap {
     display: block;
     width: 90%;
@@ -35,7 +35,7 @@
   .page-template-temp-one-column-page #primary {
     float: none;
     display: block;
-    width: 670px;
+    width: 740px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -45,7 +45,7 @@
     width: 250px;
     margin-left: 40px;
   }
-
+}
 
 th {
     font-size: 25px;
