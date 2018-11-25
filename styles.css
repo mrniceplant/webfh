@@ -4,8 +4,8 @@
   .wrap {
     display: block;
     width: 90%;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   #content {
@@ -17,7 +17,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 90%;
+    left: 670px;
     width: 1px;
     background: #EFEFEF;
   }
@@ -35,7 +35,7 @@
   .page-template-temp-one-column-page #primary {
     float: none;
     display: block;
-    width: 90%;
+    width: 670px;
     margin-right: auto;
     margin-left: auto;
   }
