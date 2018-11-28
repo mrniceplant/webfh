@@ -8,6 +8,6 @@ $(document).ready(function(){
 });
 </script> */
 
-var sheetToBeRemoved = document.getElementById('styleSheetId');
+var sheetToBeRemoved = document.getElementById('page');
 var sheetParent = sheetToBeRemoved.parentNode;
 sheetParent.removeChild(sheetToBeRemoved);
