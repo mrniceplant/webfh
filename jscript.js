@@ -11,3 +11,7 @@ $(document).ready(function(){
 var sheetToBeRemoved = document.getElementById('page');
 var sheetParent = sheetToBeRemoved.parentNode;
 sheetParent.removeChild(sheetToBeRemoved);
+
+var parent = document.getElementById("page");
+var child = document.getElementById("content");
+parent.removeChild(child);
