@@ -29,7 +29,9 @@
   }
 */
 
-
+.listMoveRight{
+    margin-left: 10px;
+}
 
 th {
     font-size: 25px;
