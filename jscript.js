@@ -1,17 +1,3 @@
-
-
-/* <script>
-$(document).ready(function(){
-    $("body").click(function(){
-        $(this).hide();
-    });
-});
-</script> */
-
-var sheetToBeRemoved = document.getElementById('page');
-var sheetParent = sheetToBeRemoved.parentNode;
-sheetParent.removeChild(sheetToBeRemoved);
-
-var parent = document.getElementById("page");
-var child = document.getElementById("content");
-parent.removeChild(child);
+function myFunction() {
+   document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
