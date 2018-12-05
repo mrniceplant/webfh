@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Skritpni jezici i web programiranje</title> 
+      <link rel="stylesheet" type="text/css" href="style/main.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+              <div class="head-quote">
+                 <div class="quote"><em><q>Once you stop learning, you start dying</q></em></div> 
+                 <div class="qauth"><em>-Albert Einstein</em></div>
+              </div>
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              <abbr title="Skriptni jezici i web programiranje">SJWP</abbr>
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <!--li><a href="index.html">Quotes</a></li>
+                                    <li><a href="#">Learning Corner</a></li-->
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+      </div>
+
+      <div class="timeline">
+        <ul>
+          <li>
+            <a href="test.html"><div class="content">
+              <h3>Madrid</h3>
+              <img src="images/madrid.jpg" alt="Madrid">
+            </div></a>
+            <div class="time">
+              <h4>November 2018</h4>
+            </div>
+          </li>
+          <li>
+            <a href="pages/"><div class="content">
+              <h3>Recepti</h3>
+              <img src="images/recepti.jpeg" alt="Recepti">
+            </div></a>
+            <div class="time">
+              <h4>October 2018</h4>
+            </div>
+          </li>
+          <li>
+            <a href="pages/"><div class="content">
+              <h3>Proces razvoja web stranica</h3>
+              <p>Web stranice su danas najvažniji način prezentacije tvrtke u svijetu. Dostupnost 24 sata na dan, 7 dana u tjednu čini ih daleko najboljim marketinškim ulaganjem koje možete napraviti. Prilikom izrade web stranica vodimo se najvišim standardima kvalitete i zadovoljstva naših klijenata. Svaka izrada web stranica je jedinstvena i svakom klijentu nudimo originalan web dizajn. Tokom izrade web stranica najveću moguću pozornost posvećujemo i optimizacijama, kako bi Vaša web stranica postigla što je moguće bolje rezultate na pretraživačima.</p>
+            </div></a>
+            <div class="time">
+              <h4>October 2018</h4>
+            </div>
+          </li>
+          <li>
+            <a href="pages/"><div class="content">
+              <h3>Boje</h3>
+              <img src="images/colors.jpg" alt="Boje">
+            </div></a>
+            <div class="time">
+              <h4>October 2018</h4>
+            </div>
+          </li>
+          <li>
+            <a href="pages/"><div class="content">
+              <h3>Skriptni jezici</h3>
+              <p>Skriptni jezici predstavljaju stil programiranja koji je različit od uobičajenih programskih jezika. Njihova je namjena komponiranje programa od gotovih aplikacija - komponenti, njihovim "lijepljenjem". Time se postiže viša razina programiranja i brži razvoj aplikacija. U okviru predmeta ljudi se upoznaju s osobinama i područjima primjene skriptnih jezika. Detaljnije se obrađuje programiranje u okviru ljuske operacijskog sustava, korištenje regularnih izraza, te temeljni Unix alati.</p>
+            </div></a>
+            <div class="time">
+              <h4>September 2018</h4>
+            </div>
+          </li>
+          <li>
+            <a href="pages/"><div class="content">
+              <h3>Preglednici</h3>
+              <p>Internetski preglednik (Web preglednik, web browser, Internet browser) je program koji korisniku omogućuje pregled web-stranica i multimedijalnih sadržaja vezanih uz njih.</p>
+              <img src="images/prg.png" alt="browsers">
+            </div></a>
+            <div class="time">
+              <h4>September 2018</h4>
+            </div>
+          </li>
+          <div style="clear: both"></div>
+        </ul>
+      </div>
+
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+</body>
+</html>
