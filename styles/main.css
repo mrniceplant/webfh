@@ -36,6 +36,26 @@ header {
   font-family: 'Kalam', cursive;
 }
 
+@media (max-width: 442px){
+  .head-quote .quote {
+      font-size: 30px;
+  }
+
+  .head-quote .qaut {
+      font-size: 17px;
+  }
+}
+
+@media (max-width: 379px){
+  .head-quote .quote {
+      font-size: 25px;
+  }
+
+  .head-quote .qaut {
+    font-size: 15px;
+ }
+}
+
 .head-quote .qauth {
   margin: 0;
   text-align: right;
